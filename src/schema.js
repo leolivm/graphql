@@ -1,0 +1,24 @@
+import { gql } from 'apollo-server'
+
+const typeDefs = gql`
+  type Student {
+    id: ID!
+    email: String!
+    fullName: String!
+    dept: String
+    enrolled: Boolean
+  }
+
+  type Query {
+    enrollment: [Student!]
+    students: [Student!]
+    student(id: ID!): Student
+  }
+
+  type Mutation {
+    registerStudent(email: String!, fullName: String!, dept: String): Student!
+    enroll(id: ID, dept: String): Student
+  }
+`
+
+export { typeDefs }
