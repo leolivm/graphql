@@ -13,13 +13,12 @@ Simple node authentication API made with [GraphQL](https://graphql.org/), and [P
 
 **Clone the project and access the folder**
 
-````bash
+```bash
 $ git clone https://github.com/leolivm/graphql.git && cd graphql
 
-```bash
 # Install the dependencies
 $ yarn install
-````
+```
 
 **Follow the steps below**
 
