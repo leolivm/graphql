@@ -5,7 +5,7 @@
 
 ## :bookmark: About the project
 
-Simple node authentication API made with [GraphQL](https://graphql.org/), [Type-GraphQL](https://typegraphql.com/) and [Prisma ORM](https://www.prisma.io/)
+Simple node authentication API made with [GraphQL](https://graphql.org/), and [Prisma ORM](https://www.prisma.io/)
 
 ## 💻 Getting started
 
